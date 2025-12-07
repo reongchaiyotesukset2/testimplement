@@ -5,7 +5,7 @@ struct Provider {
     id: u32,
 }
 impl Provider {
-    // อาจจะเพิ่ม constructor
+
     pub fn new(id: u32) -> Self {
         Self { id }
     }
